@@ -1,0 +1,66 @@
+html, body {
+    overflow: hidden;
+   }
+body{
+    background: #483D8B;
+}
+.login{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+.box{
+    width: 400px;
+    height: 300px;
+    background: #6959CD; 
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.campo{
+    margin-top: -10px;
+}
+.campo p{
+    color: white;
+}
+
+.buttonlogin{
+    margin-top: 1rem;
+}
+.tittle{
+    margin-top: -3rem;
+}
+.tittle h1{
+    color: rgb(245, 241, 241);
+}
+
+.imputlogin{
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.buttonlogin{
+    width: 80px;
+    height: 30px;
+    background-color: #077e42;
+    
+    color: white;
+    outline: none;
+    border: none;
+}
+
+button:hover{
+    background-color:#21c284 ;
+    pointer-events: auto;
+}
